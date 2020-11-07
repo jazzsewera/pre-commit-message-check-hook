@@ -11,10 +11,10 @@ See also: https://github.com/pre-commit/pre-commit
 Add this to your `.pre-commit-config.yaml`
 
 ```yaml
--   repo: https://github.com/jazzsewera/pre-commit-message-check-hook
+- repo: https://github.com/jazzsewera/pre-commit-message-check-hook
     rev: v0.0.1  # Use the ref you want to point at
     hooks:
-    -   id: add-msg-issue-prefix
+    - id: commit-message-check
 ```
 
 and install prepare-commit-msg hooks using

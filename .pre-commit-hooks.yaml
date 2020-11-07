@@ -1,0 +1,7 @@
+- id: commit-message-check
+    name: Check if commit message complies with regex
+    description: Configured with additional argument -r (regex) checks if commit message complies with it
+    entry: message-check
+    language: python
+    always_run: true
+    stages: [prepare-commit-msg]

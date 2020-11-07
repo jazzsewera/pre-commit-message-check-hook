@@ -13,7 +13,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 - repo: https://github.com/jazzsewera/pre-commit-message-check-hook
-    rev: v0.0.1  # Use the ref you want to point at
+    rev: v0.0.2  # Use the ref you want to point at
     hooks:
     - id: commit-message-check
 ```

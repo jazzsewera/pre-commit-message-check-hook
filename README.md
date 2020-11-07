@@ -4,6 +4,7 @@ pre-commit-message-check-hook
 A prepare-commit-msg hook for pre-commit.
 
 See also: https://github.com/pre-commit/pre-commit
+Credits for template: https://github.com/avilaton/add-msg-issue-prefix-hook
 
 
 ### Using with pre-commit

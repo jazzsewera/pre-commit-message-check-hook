@@ -7,7 +7,7 @@ import re
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('commit_msg_filepath', required=True)
+    parser.add_argument('commit_msg_filepath')
     parser.add_argument('-r', '--regex', required=True)
     args = parser.parse_args()
 
